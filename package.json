@@ -1,0 +1,41 @@
+{
+  "name": "grunt-https-proxy",
+  "description": "Start http/https proxy server",
+  "version": "0.0.1",
+  "author": {
+    "name": "Amit Segal",
+    "email": "asegal@glgroup.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asegal/grunt-https-proxy.git"
+  },
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "http-proxy": "~0.8.7"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-connect": "~0.1.2",
+    "grunt": "~0.4.0",
+    "grunt-simple-mocha": "~0.3.2",
+    "should": "~1.2.2"
+  },
+  "keywords": [
+    "grunt",
+    "proxy",
+    "https"
+  ]
+}
